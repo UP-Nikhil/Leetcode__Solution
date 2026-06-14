@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/shuffle-the-array/
 import java.util.*;
 
-public class Solution {
+public class Shuffle {
     public static int[] shuffle(int[] nums, int n) {
         int arr[] = new int[2 * n];
         int idx = 0;
