@@ -1,0 +1,66 @@
+[33mcommit d2da971c0eeb6a7b63ed072981d4d8dec8c464db[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Wed Jun 17 22:37:00 2026 +0530
+
+    Processing string
+
+[33mcommit 3b2af92e94eed7c96222895f31d0d0e0538519a9[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Tue Jun 16 23:13:52 2026 +0530
+
+     to convert a string in loewet case
+
+[33mcommit 747f44b4ffee444ff4ab35af2532b6fb94675dd6[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Tue Jun 16 12:44:07 2026 +0530
+
+    string modified
+
+[33mcommit 10531de98b93f248e3f5687d10341e4749e49b73[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Mon Jun 15 17:49:12 2026 +0530
+
+     public ListNode deleteDuplicates(ListNode head) {
+
+[33mcommit 0c1848d68707df7ddd4d51ab64cb15e77f1fc106[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Mon Jun 15 16:11:05 2026 +0530
+
+     Remove dublicate
+
+[33mcommit 92929b8f03d89fba2f30dc537e92929acf8cf879[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Sun Jun 14 14:51:30 2026 +0530
+
+     New filw uploaded
+
+[33mcommit 20b050d9203755de8d74c149ed18718e79991ee4[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Sun Jun 14 14:03:07 2026 +0530
+
+     new file name changes
+
+[33mcommit 653292f9f3a116e5b9d08c37a1fe9142ad5884ca[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Sun Jun 14 14:00:18 2026 +0530
+
+    file name changes
+
+[33mcommit 1a1acad1c193077cb37ad8fa30267febf4cbec53[m
+Merge: bb89a59 9d97f49
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Sun Jun 14 13:33:10 2026 +0530
+
+    Merge branch 'main' of https://github.com/UP-Nikhil/Leetcode__Solution
+
+[33mcommit bb89a59e2f1112c774ca93482b5d303b76043a8a[m
+Author: Nikhil Pratap <pratapnikhil118@gmail.com>
+Date:   Sun Jun 14 13:21:29 2026 +0530
+
+    New Repo
+
+[33mcommit 9d97f493e0a297096a76ae5e42c59882f4e1a103[m
+Author: Nikhil Pratap <168711014+UP-Nikhil@users.noreply.github.com>
+Date:   Sun Jun 14 13:19:58 2026 +0530
+
+    Initial commit
