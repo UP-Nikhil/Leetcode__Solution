@@ -11,11 +11,7 @@ public class pld_num {
             reverse = reverse * 10 + digit;
             x = x / 10;
         }
-        if (reverse == original) {
-            return true;
-        } else {
-            return false;
-        }
+        return reverse==original;
     }
     public static void main(String[] args) {
         int n= 121;
