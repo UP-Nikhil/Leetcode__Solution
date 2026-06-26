@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/kth-largest-element-in-an-array/description/
 import java.util.*;
 public class KLE {
-     public static int findKthLargest(int[] nums, int k) {
+    public static int findKthLargest(int[] nums, int k) {
 
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
