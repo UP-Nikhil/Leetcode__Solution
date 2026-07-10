@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/daily-temperatures/description/
 import java.util.*;
 public class DT {
-     public int[] dailyTemperatures(int[] tpr) {
+    public int[] dailyTemperatures(int[] tpr) {
 
         int[] ans = new int[tpr.length];
         Stack<Integer> st = new Stack<>();
