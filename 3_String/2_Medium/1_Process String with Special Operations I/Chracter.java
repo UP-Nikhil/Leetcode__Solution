@@ -1,5 +1,4 @@
 
-import java.util.*;
 public class Chracter {
       public static String processStr(String s) {
 
@@ -29,7 +28,7 @@ public class Chracter {
         return result.toString();// ye string builder ko normal string me convert kar raha hai;
     }
     public static void main(String[] args) {
-        StringBuffer sc= new StringBuffer();
+        StringBuilder sc= new StringBuilder();
         sc.append("a#b%*");
         String a= sc.toString();
         String b=processStr(a);
