@@ -1,7 +1,6 @@
 public  class Circular_Q{
     
-    
-class MyCircularQueue {
+ static class  MyCircularQueue {
 
     int[] arr;
     int front;
@@ -15,7 +14,7 @@ class MyCircularQueue {
         rear = -1;
     }
 
-    public boolean enQueue(int value) {
+    public  boolean enQueue(int value) {
 
         if (isFull()) {
             return false;
@@ -73,7 +72,9 @@ class MyCircularQueue {
     }
 }
 
- public static void main(String[] args) {
+public static void main(String[] args) {
+    MyCircularQueue q = new MyCircularQueue(3);
     
- }
+    q.enQueue(10);
+    }
 }
