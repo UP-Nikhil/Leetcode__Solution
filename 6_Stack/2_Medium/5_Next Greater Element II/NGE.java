@@ -2,7 +2,7 @@
 
 import java.util.*;
 public class NGE {
-    public int[] nextGreaterElements(int[] nums) {
+    public  static int[] nextGreaterElements(int[] nums) {
 
         int n = nums.length;
         int[] ans = new int[n];
