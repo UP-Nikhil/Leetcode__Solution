@@ -1,6 +1,6 @@
 
 //https://leetcode.com/problems/powx-n/description/
-public class power {
+public class Power {
      public double myPow(double x, int n) {
 
         long power = n;
