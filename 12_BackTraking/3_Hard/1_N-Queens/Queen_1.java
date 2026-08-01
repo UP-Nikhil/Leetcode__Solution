@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/n-queens/description/
 import java.util.*;
 
-class Queen  {
+class Queen_1  {
      public void Queen(char bord[][], int row ,List<List<String>> ans) {
 
         int n = bord.length;
