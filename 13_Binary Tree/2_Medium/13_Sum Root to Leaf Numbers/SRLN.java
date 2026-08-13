@@ -35,7 +35,6 @@ public class SRLN {
             if (root == null)
                 return 0;
             return helper(root, 0);
-
         }
     }
     public static void main(String[] args) {
