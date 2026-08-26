@@ -45,21 +45,21 @@ public class UGC {
 		return false;
 	}
 	
-	// DFS CODE
-	private boolean dfs(int i, int p, List<List<Integer>> arr, boolean vis[]) {
-		vis[i] = true;
-		for (int num : arr.get(i)) {
-			if (!vis[num]) {
-				if (dfs(num, i, arr, vis)) {
-					return true;
-				}
-			} else if (num != p) {
-				return true;
-			}
-		}
-		return false;
+	// // DFS CODE
+	// private boolean dfs(int i, int p, List<List<Integer>> arr, boolean vis[]) {
+	// 	vis[i] = true;
+	// 	for (int num : arr.get(i)) {
+	// 		if (!vis[num]) {
+	// 			if (dfs(num, i, arr, vis)) {
+	// 				return true;
+	// 			}
+	// 		} else if (num != p) {
+	// 			return true;
+	// 		}
+	// 	}
+	// 	return false;
 		
-	}
+	// }
 	
 	public boolean isCycle(int V, int[][] edges) {
 		List<List<Integer>> adj = new ArrayList<>();
