@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/valid-palindrome/description/
 
-public class VP {
+public class VP_1 {
     public static boolean isPalindrome(String s) {
         int i = 0;
         int j = s.length() - 1;
