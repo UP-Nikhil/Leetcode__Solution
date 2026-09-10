@@ -20,8 +20,8 @@ public class MIin_n {
 
     public static void main(String[] args) {
        String  s = "coaching", t = "coding";
-
-       System.out.println(appendCharacters(s, t));
+       int n = appendCharacters(s, t);
+       System.out.println(n);
 
     }
 
