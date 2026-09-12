@@ -39,45 +39,27 @@ public class LCA {
 
         return null;
     }
+/* 
+    public Node lowestCommonAncestor_1(Node p, Node q) {
 
-    public static void main(String[] args) {
+        Node a = p;
+        Node b = q;
 
-        LCA tree = new LCA();
+        while (a != b) {
 
-        // Nodes create
-        Node root = tree.new Node(3);
-        Node p = tree.new Node(5);
-        Node q = tree.new Node(1);
-        Node node2 = tree.new Node(2);
-        Node node4 = tree.new Node(4);
+            if (a == null) {
+                a = q;
+            } else {
+                a = a.parent;
+            }
 
-        // Tree connect
-        root.left = p;
-        root.right = q;
+            if (b == null) {
+                b = p;
+            } else {
+                b = b.parent;
+            }
+        }
 
-        p.parent = root;
-        q.parent = root;
-
-        p.right = node2;
-        node2.parent = p;
-
-        node2.right = node4;
-        node4.parent = node2;
-
-        /*
-                 3
-                / \
-               5   1
-                \
-                 2
-                  \
-                   4
-
-             p = 5
-             q = 4
-         */
-        Node result = tree.lowestCommonAncestor(p, node4);
-
-        System.out.println("LCA = " + result.val);
-    }
+        return a;
+    } */
 }
