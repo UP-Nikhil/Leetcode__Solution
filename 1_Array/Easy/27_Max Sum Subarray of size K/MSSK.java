@@ -1,6 +1,6 @@
 //https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
 
-public class MSS {
+public class MSSK {
     public int maxSubarraySum(int[] arr, int k) {
        int sum=0;
        int max = Integer.MIN_VALUE;
