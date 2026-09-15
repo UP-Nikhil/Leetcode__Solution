@@ -3,7 +3,7 @@
 import java.util.*;
 
 public class RDS {
-    public List<String> findRepeatedDnaSequences(String s) {
+    public static List<String> findRepeatedDnaSequences(String s) {
         HashSet<String> set = new HashSet<>();
         HashSet<String> ans = new HashSet<>();
 
