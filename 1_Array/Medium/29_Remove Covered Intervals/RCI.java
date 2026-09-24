@@ -49,10 +49,10 @@ public class RCI {
         int count = 1,
                 max = intervals[0][1];
 
-        for (int i = 0; i < intervals.length; i++) {
-            if (intervals[i][1] > max) {
+        for (int[] interval : intervals) {
+            if (interval[1] > max) {
                 count++;
-                max = Math.max(max, intervals[i][1]);
+                max = Math.max(max, interval[1]);
             }
 
         }
