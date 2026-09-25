@@ -66,9 +66,12 @@ public class RCI {
                 { 2, 8 }
 
         };
+        
         // for (int[] row : arr) {
         // System.out.println(Arrays.toString(row));
         // }
+
+
 
         System.out.println(Arrays.deepToString(arr) + " ");
         System.out.println(removeCoveredIntervals(arr));
