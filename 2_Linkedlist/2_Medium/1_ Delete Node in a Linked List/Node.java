@@ -1,12 +1,12 @@
-class Solution {
+public class Node {
+    int data;
+    Node next;
 
-    public static class Node {
-        int data;
-        Node next;
+    Node() {
+    }
 
-        Node(int data) {
-            this.data = data;
-        }
+    Node(int data) {
+        this.data = data;
     }
 
     public void deleteNode(Node node) {
@@ -27,7 +27,7 @@ class Solution {
         c.next = d;
         d.next = e;
 
-        Solution obj = new Solution();
+        Node obj = new Node();
         obj.deleteNode(c); // delete 7
 
         Node temp = a;
