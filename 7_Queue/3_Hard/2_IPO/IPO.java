@@ -44,7 +44,7 @@ public class IPO {
     
     */
 
- // second my approach;
+ // my second  approach;
  /*
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
 
