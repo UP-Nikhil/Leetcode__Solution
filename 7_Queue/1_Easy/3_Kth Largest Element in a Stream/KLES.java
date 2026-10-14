@@ -5,7 +5,7 @@ import java.util.*;
 public class KLES {
 
     PriorityQueue<Integer> q;
-    private int k;
+    private final int k;
 
     public KLES(int k, int[] nums) {
         this.k = k;
