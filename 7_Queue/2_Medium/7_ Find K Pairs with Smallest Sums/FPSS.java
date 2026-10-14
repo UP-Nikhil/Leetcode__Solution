@@ -44,6 +44,7 @@ public class FPSS {
     
     */
  
+    // second approach;
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
         List<List<Integer>> ans = new ArrayList<>();
@@ -72,6 +73,7 @@ public class FPSS {
 
             k--;
         }
+
 
         return ans;
     }
