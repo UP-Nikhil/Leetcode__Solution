@@ -15,23 +15,23 @@ public class KEb {
 
     // brute force;
 
-    /*
-     * public int minEatingSpeed(int[] piles, int h) {
-     * 
-     * int maxEat = 0;
-     * for (int pile : piles) {
-     * maxEat = Math.max(maxEat, pile);
-     * }
-     * 
-     * for (int i = 1; i <= maxEat; i++) {
-     * if (isPossible(piles, h, i)) {
-     * return i;
-     * }
-     * }
-     * 
-     * return maxEat;
-     * }
-     */
+    
+    //   public int minEatingSpeed(int[] piles, int h) {
+      
+    //   int maxEat = 0;
+    //   for (int pile : piles) {
+    //   maxEat = Math.max(maxEat, pile);
+    //   }
+      
+    //   for (int i = 1; i <= maxEat; i++) {
+    //   if (isPossible(piles, h, i)) {
+    //   return i;
+    //   }
+    //   }
+      
+    //   return maxEat;
+    //  }
+     
     public int minEatingSpeed(int[] piles, int h) {
 
         int maxEat = 0;
