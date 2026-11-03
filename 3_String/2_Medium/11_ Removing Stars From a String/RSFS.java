@@ -42,4 +42,3 @@ public class RSFS {
         
     }
 }
-Removing Stars From a String
